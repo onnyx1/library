@@ -20,7 +20,7 @@ input {
 form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 
@@ -92,7 +92,7 @@ body {
   padding-left: 5.5rem;
   padding-right: 5.5rem;
   box-shadow: 0px 0px 3px rgb(217,215,218);
-
+  gap: 1rem;
 }
 
 
@@ -135,8 +135,22 @@ header > .row > button {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
+  gap: 2.3rem;
 }
 
+.form-info > h2{
+  margin: 0px;
+}
+
+
+form > button {
+  background-color: lightgreen;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  border: none;
+}
 
 .icon {
   vertical-align: bottom;
@@ -148,4 +162,43 @@ display: flex;
 flex: 1;
 width: 75%;
 align-self: center;
+}
+
+
+.card > button {
+  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+  align-self: stretch;
+  border: none;
+}
+
+.card > h2 {
+  margin: 0px;
+  margin-bottom: 2rem;
+}
+
+.card > p, .card > button {
+  margin: 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttonRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+input[type="text"]{
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
 }
